@@ -6,8 +6,8 @@ services:
       - 54321:5432
     environment:
       - POSTGRES_PASSWORD=123456
-      - POSTGRES_USER=joe@admin.com
-      - POSTGRES_DB=joe@admin.com
+      - POSTGRES_USER=joe
+      - POSTGRES_DB=joe
 
   admin:
     image: dpage/pgadmin4
