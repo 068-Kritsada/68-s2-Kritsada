@@ -11,7 +11,7 @@ services:
 
   admin:
     image: dpage/pgadmin4
-    container_name: 68-s2-pgadmin
+    container_name: 69-s2-pgadmin
     ports:
       - 8082:80
     environment:
